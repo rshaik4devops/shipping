@@ -22,7 +22,7 @@ Create a user
 
 ```
 $ cd /home/roboshop
-$ curl -s -L -o /tmp/shipping.zip "https://github.com/roboshop-devops-project/shipping/archive/main.zip"
+$ curl -s -L -o /tmp/shipping.zip "https://github.com/rshaik4devops/shipping/archive/main.zip"
 $ unzip /tmp/shipping.zip
 $ mv shipping-main shipping
 $ cd shipping
