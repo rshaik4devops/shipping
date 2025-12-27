@@ -1,5 +1,5 @@
 pipeline{
-    agent any
+    agent agent2
     tools{
         maven 'maven'
         jdk 'JDK17'
@@ -49,4 +49,5 @@ pipeline{
 
     }
 }
+
 
