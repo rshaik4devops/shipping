@@ -2,7 +2,7 @@ pipeline{
     agent any
     tools{
         maven 'maven'
-        JDK 'JDK17'
+        jdk 'JDK17'
     }
     options{
         timestamps()
@@ -49,3 +49,4 @@ pipeline{
 
     }
 }
+
